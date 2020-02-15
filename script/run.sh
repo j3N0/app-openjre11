@@ -59,7 +59,7 @@ fi
 
 
 ## fix url with ${URL}
-#bash /usr/local/bin/fix_url.sh
+bash /usr/local/bin/fix_url.sh
 
 #if [ ! -f "$webapps/deploy-lib.sh" ];then
 #   cp /tmp/deploy-lib.sh $webapps
