@@ -1,0 +1,11 @@
+spring:
+  profiles: greenfield
+  datasource:
+      url: jdbc:mysql://172.17.0.1:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+      username: root
+      password: root
+      initialize: true
+
+logging:
+  level: warn
+  config: config/logback-spring.xml
